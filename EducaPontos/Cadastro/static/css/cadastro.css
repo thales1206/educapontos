@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    place-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+.tela-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+}
+
+.images-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    gap: 20px;
+    box-shadow: -4px 0px rgb(7, 7, 51);
+    width: 500px;
+}
+
+.images-container h1{
+    font-size: 3vh;
+    color: rgb(7, 7, 51);
+}
+
+.images-container img:nth-child(1){
+    width: 20vh;
+}
+
+.images-container img:nth-child(3){
+    display: flex;
+    place-self: center;
+    width: 50vh;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+
+    padding: 50px;
+    gap: 10px;
+
+    background-color: rgb(16, 56, 141);
+    color: #ffff;
+    border-radius: 20px;
+}
+
+.login-container h2{
+    font-size: 4vh;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container .mtr-snh{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container .mtr-snh input{
+    padding: 10px;
+    background-color: rgb(175, 239, 250);
+}
+
+.login-container .check{
+    display: flex;
+    gap: 5px;
+}
+
+.login-container .recover{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vh;
+    padding: 10px 0px;
+}
+
+.login-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.login-container .btn-entrar button{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 320px;
+    background-color: rgb(25, 134, 250);
+    color: white;
+    font-size: 2.5vh;
+}

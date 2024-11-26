@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/cadastro.css' %}">
+    <title>EducaPontos Cadastro</title>
+</head>
+<body>
+    <div class="tela-login">
+        <div class="images-container">
+            <img src="{% static 'images/educa_pontos-removebg-preview.png' %}" alt="">
+            <h1>Transforme Seu Esforço em Conquista.</h1>
+            <img src="{% static 'images/idea.png' %}" alt="sdfdssfdsf">
+        </div>
+        <div class="login-container">
+            <h2>LOGIN</h2>
+            <form action="#" method="post">
+                <div class="mtr-snh">
+                    <label for="username">Matricula</label>
+                    <input type="text" id="username" name="username" placeholder="@hotmail.com" required>
+                </div>
+                <div class="mtr-snh">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="*******" required>
+                </div>
+                <div class="recover">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Lembrar</p>
+                    </div>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <div class="btn-entrar">
+                    <button type="submit" class="btn">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
