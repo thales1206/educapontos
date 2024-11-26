@@ -5,8 +5,8 @@ from Cadastro.models import Instituicao
 class Turma(models.Model):
     nome = models.CharField(max_length=200)
     
-def __str__(self):
-    return self.nome
+    def __str__(self):
+        return self.nome
 
 class Aluno(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
