@@ -14,8 +14,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20vh;
+    gap: 40vh;
 }
+
 
 .images-container{
     display: flex;
@@ -23,7 +24,7 @@ body{
     padding: 0px 30px;
     gap: 20px;
     box-shadow: -4px 0px rgb(7, 7, 51);
-    width: 500px;
+    width: 550px;
 }
 
 .images-container h1{
@@ -46,8 +47,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 500px;
 
     padding: 50px;
     gap: 10px;
@@ -64,18 +65,22 @@ body{
 .login-container form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .login-container .mtr-snh{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 40vh;
 }
 
 .login-container .mtr-snh input{
     padding: 10px;
-    background-color: rgb(175, 239, 250);
+    background-color: #ffff;
+    border-radius: 10px;
+    border: 0px solid;
+    height: 30px;
 }
 
 .login-container .check{
@@ -99,8 +104,19 @@ body{
     display: flex;
     justify-content: center;
     padding: 15px;
-    width: 320px;
-    background-color: rgb(25, 134, 250);
+    width: 40vh;
+
+    background-color: rgb(44, 143, 249);
+    border-radius: 10px;
+    border: 0px solid;
+    
     color: white;
     font-size: 2.5vh;
+}
+
+.login-container .contact a{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 2vh;
 }

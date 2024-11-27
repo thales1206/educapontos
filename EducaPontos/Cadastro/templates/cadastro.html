@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +10,15 @@
 <body>
     <div class="tela-login">
         <div class="images-container">
-            <img src="{% static 'images/educa_pontos-removebg-preview.png' %}" alt="">
+            <img src="{% static 'css/images/educa_pontos-removebg-preview.png' %}" alt="">
             <h1>Transforme Seu Esforço em Conquista.</h1>
-            <img src="{% static 'images/idea.png' %}" alt="sdfdssfdsf">
+            <img src="{% static 'css/images/idea.png' %}" alt="">
         </div>
         <div class="login-container">
             <h2>LOGIN</h2>
             <form action="#" method="post">
                 <div class="mtr-snh">
-                    <label for="username">Matricula</label>
+                    <label for="username">E-mail</label>
                     <input type="text" id="username" name="username" placeholder="@hotmail.com" required>
                 </div>
                 <div class="mtr-snh">
@@ -30,10 +30,12 @@
                         <input type="checkbox">
                         <p>Lembrar</p>
                     </div>
-                    <a href="#">Esqueceu a senha?</a>
                 </div>
                 <div class="btn-entrar">
                     <button type="submit" class="btn">Entrar</button>
+                </div>
+                <div class="contact">
+                    <a href="#">Dificuldades, entre em contato?</a>
                 </div>
             </form>
         </div>
