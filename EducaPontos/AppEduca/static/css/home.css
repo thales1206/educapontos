@@ -240,7 +240,7 @@ html{
 .footer .text-footer ul{
     display: flex;
     flex-direction: column;
-    line-height: 10px;
+    line-height: 20px;
 }
 
 .text-below-footer{
