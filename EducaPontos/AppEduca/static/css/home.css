@@ -63,7 +63,7 @@ html{
 
 .header .carousel-inner{
     display: flex;
-    height: 600px;
+    height: 580px;
 }
 
 .header .carousel-inner img{
@@ -202,7 +202,6 @@ html{
 }
 
 .footer .img-apps img{
-    padding: 50px;
     height: 35vh;
 }
 
