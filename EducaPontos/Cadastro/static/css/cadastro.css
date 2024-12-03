@@ -33,7 +33,7 @@ body{
 }
 
 .images-container img:nth-child(1){
-    width: 20vh;
+    width: 50vh;
 }
 
 .images-container img:nth-child(3){
