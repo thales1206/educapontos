@@ -12,6 +12,12 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from os import path
+from os import environ
+from dotenv import load_dotenv, find_dotenv
+
+env = environ.get
+
+load_dotenv(find_dotenv())
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -83,12 +89,12 @@ WSGI_APPLICATION = 'EducaPontos.wsgi.app'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bd_educapontos',
-        'USER':  'root',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'ENGINE': env('DB_ENGINE'),
+        'NAME':  env('DB_NAME'),
+        'USER':   env('DB_USER'),
+        'PASSWORD':  env('DB_PASSWORD'),
+        'HOST':  env('DB_HOST'),
+        'PORT':  env('DB_PORT')
     }
 }
 
